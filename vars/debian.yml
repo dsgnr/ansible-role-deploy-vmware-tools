@@ -1,0 +1,4 @@
+---
+service_name: open-vm-tools
+valid_os: '{{ ansible_distribution == "Debian" }}'
+...
